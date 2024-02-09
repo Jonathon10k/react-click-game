@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #5133a4;
+  height: 80px;
+  color: white;
+  font-weight: 800;
+  margin: 0;
+}
+
+.navbar > * {
+  color: white;
+  
+}
+
+.navbar--text {
+  width: 100%;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 100px;
+  font-size: 1.5rem;
+}
